@@ -6,10 +6,6 @@
  * Made By MaterializeCSS.com
  */
 
-.bold {
-  font-weight: bolder;
-}
-
 p {
   line-height: 2rem;
 }
@@ -35,7 +31,7 @@ p {
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
-    top: 40%;
+    top: 20%;
   }
   #index-banner .section {
     top: 10%;
@@ -46,6 +42,11 @@ p {
   #index-banner .section {
     top: 0;
   }
+}
+
+img.restaurant{
+    width: 200px; /* you can use % */
+    height: auto;
 }
 
 .icon-block {
