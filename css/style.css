@@ -11,17 +11,17 @@ h2 {
   font-family: 'Pathway Gothic One', serif;
 }
 
-ul > li > a {                   
+ul > li > a {
 font-size: 18px;
 }
 
-#index-banner {
-  height: 500px;
+#logo {
+  max-height: 150px;
+  width: auto;
 }
 
-#logo {
-  max-height: 350px;
-  width: auto;
+#index-banner {
+  height: 550px;
 }
 
 .parallax-container {
@@ -34,34 +34,29 @@ font-size: 18px;
     width: 100%;
   }
 
+ #home {
+    margin-top: 50px;
+  }
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
     top: 20%;
   }
   #index-banner .section {
-    top: 4%;
+    top: 10%;
   }
-}
-
-@media only screen and (max-width : 800px) {
-  #navbar {
-    left: 20%;
-    -webkit-transform: translateX(0%);
-          transform: translateX(0%);
-
+  #home {
+    margin-top: 25px;
   }
 }
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
-    top: 5;
+    top: 0;
   }
-  #navbar {
-    -webkit-transform: translateX(0%);
-          transform: translateX(0%);
-    right: 1rem;
-    left: auto;
+  #home {
+    margin-top: 75px;
   }
 }
 
