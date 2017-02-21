@@ -1,21 +1,27 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
 p {
   line-height: 2rem;
+  font-size: 18px;
 }
 
-.button-collapse {
-  color: #26a69a;
+h1 {
+  font-family: 'Pathway Gothic One', serif;
+}
+
+h2 {
+  font-family: 'Pathway Gothic One', serif;
+}
+
+ul > li > a {                   
+font-size: 18px;
 }
 
 #index-banner {
-  height: 550px;
+  height: 500px;
+}
+
+#logo {
+  max-height: 350px;
+  width: auto;
 }
 
 .parallax-container {
@@ -34,13 +40,28 @@ p {
     top: 20%;
   }
   #index-banner .section {
-    top: 10%;
+    top: 4%;
+  }
+}
+
+@media only screen and (max-width : 800px) {
+  #navbar {
+    left: 20%;
+    -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+
   }
 }
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
-    top: 0;
+    top: 5;
+  }
+  #navbar {
+    -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+    right: 1rem;
+    left: auto;
   }
 }
 
