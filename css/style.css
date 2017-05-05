@@ -24,6 +24,13 @@ font-size: 18px;
   width: auto;
 }
 
+#uysa {
+  margin-left: -10px;
+  position:absolute;
+  left:0;
+  transform:translateX(-100%);
+}
+
 #index-banner {
   height: 550px;
 }
